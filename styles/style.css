@@ -101,6 +101,8 @@ ol {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  cursor: default;
+  padding: 0 2px;
 }
 
 .search-form__textfield {
@@ -161,6 +163,11 @@ ol {
 
 .search-form__checkbox:active + .search-form__pseudo-checkbox::before {
   display: flex;
+}
+
+.search-form__label:has(input[type="checkbox"]):focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
 }
 
 .search-form__label:has(input[type="checkbox"]):hover {
@@ -233,7 +240,8 @@ ol {
 .content__list {
   max-width: 399px;
   max-height: 298px;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   position: relative;
