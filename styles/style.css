@@ -68,7 +68,7 @@ ol {
   max-width: 711px;
   max-height: 386px; 
   object-fit: cover;
-  object-position: right;
+  object-position: center;
 }
 
 .result__video:focus {
@@ -337,6 +337,7 @@ ol {
   height: 100%;
   max-height: 103px;
   object-fit: cover;
+  object-position: right;
 }
 
 .content__video-card-title {
