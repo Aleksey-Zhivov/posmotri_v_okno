@@ -67,7 +67,8 @@ ol {
   width: 100%;
   max-width: 711px;
   max-height: 386px; 
-  object-fit: cover; 
+  object-fit: cover;
+  object-position: right;
 }
 
 .result__video:focus {
@@ -116,7 +117,6 @@ ol {
 /* описание для тайтла и поля ввода */
 
 .search-form__fieldset-title {
-  padding: 0 2px;
   color: #FFF;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
@@ -127,6 +127,7 @@ ol {
 }
 
 .search-form__textfield {
+  padding: 0;
   min-width: 225px;
   border: none;
   border-top: 1px solid #FFF;
@@ -318,8 +319,7 @@ ol {
   display: flex;
   justify-content: space-between;
   max-width: 394px;
-  max-height: 107px;
-  margin: 2px;
+  padding: 2px;
 }
 
 .content__video-card-description-container {
