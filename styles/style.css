@@ -254,6 +254,10 @@ ol {
   min-height: 534px;
 }
 
+.content__accent {
+  color: #545050;
+}
+
 .title {
   color: #FFF;
   font-family: Oswald, sans-serif;
